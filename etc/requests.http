@@ -1,0 +1,6 @@
+### Default configuration from classpath
+GET http://localhost:8071/licensing-service/default
+
+### Development configuration from classpath
+GET http://localhost:8071/licensing-service/dev
+

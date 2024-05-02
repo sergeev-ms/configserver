@@ -1,0 +1,15 @@
+server:
+  port: 8071
+
+spring:
+  cloud:
+    config:
+      server:
+        #        local configuration
+        native:
+          search-locations: classpath:/config #file:///{FILE_PATH}
+
+management:
+  health:
+    db:
+      enabled: false
